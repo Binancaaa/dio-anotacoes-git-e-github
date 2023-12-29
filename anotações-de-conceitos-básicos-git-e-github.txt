@@ -113,6 +113,10 @@ git config: Comando que mostra as configurações do GIT. No git config é poss�
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	git push: envia as alterações salvas do repositório local para o repositório remoto.
+        
+        git push -u origin main
+                 |
+        git push (comando) -u (set upstream - vai dizer para o Git para configurar o Branch main que vai vai estar no repositório local, como a Branch upstream da Branch do repositório remoto)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
